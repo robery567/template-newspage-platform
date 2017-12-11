@@ -5,10 +5,10 @@
 node_modules/*
 
 # Deployed ignore
-public_html/media/*
+web/media/*
 
 # Built assets
-public_html/assets/*
-!public_html/assets/.gitkeep
+web/static/*
+!web/static/.gitkeep
 
 .directory
