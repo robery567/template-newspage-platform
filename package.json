@@ -1,0 +1,44 @@
+{
+  "dependencies": {
+    "bloodhound-js": "^1.2",
+    "blueimp-gallery": "^2.25",
+    "bootstrap-sass": "^3.3",
+    "bootstrap-tagsinput": "^0.7",
+    "bootswatch": "^3.3",
+    "datatables.net": "^1.10",
+    "datatables.net-bs": "^1.10",
+    "datatables.net-dt": "^1.10",
+    "datatables.net-responsive": "^2.1",
+    "eonasdan-bootstrap-datetimepicker": "^4.17",
+    "font-awesome": "^4.7",
+    "holderjs": "^2.9",
+    "isotope-layout": "^3.0",
+    "jquery": "^3.2",
+    "jquery-match-height": "^0.7",
+    "malihu-custom-scrollbar-plugin": "^3.1",
+    "masonry-layout": "^4.2",
+    "metismenu": "^2.7",
+    "moment": "^2.18",
+    "morris-js-module": "^1.2",
+    "photoswipe": "^4.1",
+    "simpleweather": "^3.1",
+    "tempusdominus-core": "^5.0.0-alpha.9",
+    "timeago": "^1.6",
+    "tinymce": "^4.6",
+    "typeahead.js": "^0.11",
+    "video.js": "^6.2"
+  },
+  "devDependencies": {
+    "@symfony/webpack-encore": "^0.17",
+    "exports-loader": "^0.6",
+    "imports-loader": "^0.7",
+    "node-sass": "^4.5",
+    "sass-loader": "^6.0"
+  },
+  "scripts": {
+    "dev-server": "./node_modules/.bin/encore dev-server",
+    "dev": "./node_modules/.bin/encore dev",
+    "watch": "./node_modules/.bin/encore dev --watch",
+    "build": "./node_modules/.bin/encore production"
+  }
+}

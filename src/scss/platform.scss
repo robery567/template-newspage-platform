@@ -1,0 +1,49 @@
+// custom fonts
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic");
+@import url("http://fonts.googleapis.com/css?family=PT+Serif");
+@import url("https://fonts.googleapis.com/css?family=Abril+Fatface");
+
+// vendor variables
+$icon-font-path: '~video.js/dist/font';
+
+// vendors
+@import "vendor";
+@import "~bootstrap-tagsinput/src/bootstrap-tagsinput";
+@import "~video.js/src/css/video-js";
+@import "~photoswipe/src/css/main";
+@import "~photoswipe/src/css/default-skin/default-skin";
+
+// platform scss
+@import "platform/basic";
+@import "platform/blocks";
+@import "platform/boxes";
+@import "platform/buttons";
+@import "platform/columns";
+@import "platform/defaults";
+@import "platform/fonts";
+@import "platform/lines";
+@import "platform/lists";
+@import "platform/pics";
+@import "platform/separators";
+@import "platform/queries";
+@import "platform/custom-navbar";
+
+// @author hktr92
+@import "platform/media";
+@import "platform/sharer";
+@import "platform/article";
+@import "platform/top_toolbar";
+@import "platform/updater";
+@import "platform/announcement";
+@import "platform/masthead";
+
+// blocks video download for chrome
+@import "platform/video";
+
+body {
+    padding-top: 50px;
+}
+
+.container--with-padding {
+    padding-bottom: 15px;
+}

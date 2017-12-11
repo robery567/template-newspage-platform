@@ -1,0 +1,61 @@
+/* lists */
+
+.list_1 {
+  padding-bottom: 15px;
+  overflow: hidden;
+  li {
+    padding-left: 22px;
+    padding-top: 3px;
+    display: block;
+    background: url('../images/marker_1.png') no-repeat 0 7px;
+    font-size: 13px;
+    line-height: 20px;
+    &:first-child {
+      padding-top: 0;
+      background: url('../images/marker_1.png') no-repeat 0 4px;
+    }
+    a {
+      font-size: 13px;
+    }
+  }
+}
+
+.list_2 {
+  padding-bottom: 15px;
+  overflow: hidden;
+  li {
+    padding-left: 20px;
+    padding-top: 13px;
+    display: block;
+    background: url('../images/marker_2.png') no-repeat 0 19px;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    &:first-child {
+      padding-top: 0;
+      background: url('../images/marker_2.png') no-repeat 0 6px;
+    }
+    a {
+      font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+      font-size: 14px;
+    }
+  }
+}
+
+.list_3 {
+  padding-bottom: 15px;
+  li {
+    margin-left: 20px;
+    padding-top: 13px;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    &:first-child {
+      padding-top: 0;
+    }
+    a {
+      font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+      font-size: 14px;
+    }
+  }
+}

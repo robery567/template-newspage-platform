@@ -1,0 +1,19 @@
+.pic {
+  max-width: 100%;
+  display: inline-block;
+  position: relative;
+  line-height: 0;
+  img {
+    max-width: 100%;
+  }
+  &.alignleft {
+    margin: 5px 20px 0 0;
+    float: left;
+    display: block;
+  }
+  &.alignright {
+    margin: 5px 0 0 20px;
+    float: right;
+    display: block;
+  }
+}

@@ -1,0 +1,101 @@
+$brand-facebook: #3b5998;
+$brand-google-plus: #dd4b39;
+$brand-twitter: #2ba9e1;
+$brand-whatsapp: #25d366;
+$brand-pinterest: #cb2027;
+$brand-tumblr: #2c4762;
+
+$brand-email: #f8ecc2;
+
+$darken-percent: 15%;
+$lighten-percent: 15%;
+
+$text-color: #fff;
+
+.sharer {
+    &-container {
+        margin-top: 30px;
+        text-align: center;
+        position: relative;
+    }
+
+    &-facebook {
+        background-color: $brand-facebook;
+        color: $text-color;
+
+        &:hover,
+        &:focus {
+            background-color: darken($brand-facebook, $darken-percent);
+            color: $text-color;
+        }
+
+        &-alert {
+            background-color: lighten($brand-facebook, $lighten-percent);
+            color: $text-color;
+        }
+    }
+
+    &-google-plus {
+        background-color: $brand-google-plus;
+        color: $text-color;
+
+        &:hover,
+        &:focus {
+            background-color: darken($brand-google-plus, $darken-percent);
+            color: $text-color;
+        }
+
+        &-alert {
+            background-color: lighten($brand-google-plus, $lighten-percent);
+            color: $text-color;
+        }
+    }
+
+    &-twitter {
+        background-color: $brand-twitter;
+        color: $text-color;
+
+        &:hover,
+        &:focus {
+            background-color: darken($brand-twitter, $darken-percent);
+            color: $text-color;
+        }
+
+        &-alert {
+            background-color: lighten($brand-twitter, $lighten-percent);
+            color: $text-color;
+        }
+    }
+
+    &-whatsapp {
+        background-color: $brand-whatsapp;
+        color: $text-color;
+
+        &:hover,
+        &:focus {
+            background-color: darken($brand-whatsapp, $darken-percent);
+            color: $text-color;
+        }
+
+        &-alert {
+            background-color: lighten($brand-whatsapp, $lighten-percent);
+            color: $text-color;
+        }
+    }
+
+    &-email {
+        background-color: darken($brand-email, $darken-percent);
+        color: $text-color;
+
+        &:hover,
+        &:focus {
+            background-color: darken($brand-email, $darken-percent);
+            color: $text-color;
+        }
+
+        &-alert {
+            background-color: lighten($brand-email, $lighten-percent);
+            color: $text-color;
+        }
+    }
+}

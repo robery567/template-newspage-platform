@@ -1,0 +1,343 @@
+h1, h2, h3, h4, h5, h6 {
+  padding-bottom: 20px;
+  font-family: 'Patua One', Helvetica, Arial, sans-serif;
+  color: #181818;
+  font-weight: normal;
+}
+
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  font-family: 'Patua One', Helvetica, Arial, sans-serif;
+  color: #181818;
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 33px;
+  a {
+    font-size: 33px;
+  }
+}
+
+h2 {
+  font-size: 26px;
+  a {
+    font-size: 26px;
+  }
+}
+
+h3 {
+  font-size: 16px;
+  a {
+    font-size: 16px;
+  }
+}
+
+h4 {
+  font-size: 14px;
+  a {
+    font-size: 14px;
+  }
+}
+
+h5 {
+  font-size: 13px;
+  a {
+    font-size: 13px;
+  }
+}
+
+h6 {
+  font-size: 12px;
+  a {
+    font-size: 12px;
+  }
+}
+
+p {
+  padding-bottom: 15px;
+}
+
+a {
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.the_ins_1 {
+  background-color: #8d9599;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.semibold {
+  font-weight: 600;
+}
+
+blockquote.type_1 {
+  margin-left: -18px;
+  margin-bottom: 25px;
+  padding: 11px 15px 13px 35px;
+  display: block;
+  background: url('../images/icon_quote_1.png') no-repeat 14px 17px;
+  border: 1px solid #e6ecec;
+  border-left: 3px solid #33cccd;
+  font-family: 'PT Serif', Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  color: #747474;
+  line-height: 21px;
+  &.left {
+    width: 205px;
+    margin: 6px 9px 0 -18px;
+    float: left;
+  }
+  &.right {
+    width: 205px;
+    margin: 6px 0 0 9px;
+    float: right;
+  }
+}
+
+.dropcaps_1 {
+  width: 36px;
+  line-height: 40px;
+  float: left;
+  position: relative;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-size: 43px;
+  font-weight: 600;
+}
+
+.dropcaps_2 {
+  width: 27px;
+  height: 27px;
+  line-height: 26px;
+  margin-right: 9px;
+  margin-top: 8px;
+  float: left;
+  position: relative;
+  background-color: #2a3940;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  font-size: 15px;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+}
+
+@font-face {
+  font-family: 'cheltenham-italic-200';
+  src: local('☺︎'),
+  url('../../fonts/cheltenham/cheltenham-italic-200.woff') format('woff'),
+  url('../../fonts/cheltenham/cheltenham-italic-200.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'cheltenham-italic-300';
+  src: local('☺︎'),
+  url('../../fonts/cheltenham/cheltenham-italic-300.woff') format('woff'),
+  url('../../fonts/cheltenham/cheltenham-italic-300.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'cheltenham-italic-400';
+  src: local('☺︎'),
+  url('../../fonts/cheltenham/cheltenham-italic-400.woff') format('woff'),
+  url('../../fonts/cheltenham/cheltenham-italic-400.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'cheltenham-italic-500';
+  src: local('☺︎'),
+  url('../../fonts/cheltenham/cheltenham-italic-500.woff') format('woff'),
+  url('../../fonts/cheltenham/cheltenham-italic-500.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'cheltenham-italic-700';
+  src: local('☺︎'),
+  url('../../fonts/cheltenham/cheltenham-italic-700.woff') format('woff'),
+  url('../../fonts/cheltenham/cheltenham-italic-700.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'cheltenham-italic-800';
+  src: local('☺︎'),
+  url('../../fonts/cheltenham/cheltenham-italic-800.woff') format('woff'),
+  url('../../fonts/cheltenham/cheltenham-italic-800.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: 'cheltenham-normal-200';
+  src: local('☺︎'),
+  url('../../fonts/cheltenham/cheltenham-normal-200.woff') format('woff'),
+  url('../../fonts/cheltenham/cheltenham-normal-200.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'cheltenham-normal-300';
+  src: local('☺︎'),
+  url('../../fonts/cheltenham/cheltenham-normal-300.woff') format('woff'),
+  url('../../fonts/cheltenham/cheltenham-normal-300.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'cheltenham-normal-400';
+  src: local('☺︎'),
+  url('../../fonts/cheltenham/cheltenham-normal-400.woff') format('woff'),
+  url('../../fonts/cheltenham/cheltenham-normal-400.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'cheltenham-normal-500';
+  src: local('☺︎'),
+  url('../../fonts/cheltenham/cheltenham-normal-500.woff') format('woff'),
+  url('../../fonts/cheltenham/cheltenham-normal-500.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'cheltenham-normal-700';
+  src: local('☺︎'),
+  url('../../fonts/cheltenham/cheltenham-normal-700.woff') format('woff'),
+  url('../../fonts/cheltenham/cheltenham-normal-700.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'cheltenham-normal-800';
+  src: local('☺︎'),
+  url('../../fonts/cheltenham/cheltenham-normal-800.woff') format('woff'),
+  url('../../fonts/cheltenham/cheltenham-normal-800.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: 'franklin-italic-300';
+  src: local('☺︎'),
+  url('../../fonts/franklin/franklin-italic-300.woff') format('woff'),
+  url('../../fonts/franklin/franklin-italic-300.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'franklin-italic-500';
+  src: local('☺︎'),
+  url('../../fonts/franklin/franklin-italic-500.woff') format('woff'),
+  url('../../fonts/franklin/franklin-italic-500.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'franklin-italic-600';
+  src: local('☺︎'),
+  url('../../fonts/franklin/franklin-italic-600.woff') format('woff'),
+  url('../../fonts/franklin/franklin-italic-600.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'franklin-italic-700';
+  src: local('☺︎'),
+  url('../../fonts/franklin/franklin-italic-700.woff') format('woff'),
+  url('../../fonts/franklin/franklin-italic-700.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'franklin-italic-800';
+  src: local('☺︎'),
+  url('../../fonts/franklin/franklin-italic-800.woff') format('woff'),
+  url('../../fonts/franklin/franklin-italic-800.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: 'franklin-italic-900';
+  src: local('☺︎'),
+  url('../../fonts/franklin/franklin-italic-900.woff') format('woff'),
+  url('../../fonts/franklin/franklin-italic-900.ttf') format('truetype');
+  font-style: italic;
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: 'franklin-normal-300';
+  src: local('☺︎'),
+  url('../../fonts/franklin/franklin-normal-300.woff') format('woff'),
+  url('../../fonts/franklin/franklin-normal-300.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'franklin-normal-500';
+  src: local('☺︎'),
+  url('../../fonts/franklin/franklin-normal-500.woff') format('woff'),
+  url('../../fonts/franklin/franklin-normal-500.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'franklin-normal-600';
+  src: local('☺︎'),
+  url('../../fonts/franklin/franklin-normal-600.woff') format('woff'),
+  url('../../fonts/franklin/franklin-normal-600.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'franklin-normal-700';
+  src: local('☺︎'),
+  url('../../fonts/franklin/franklin-normal-700.woff') format('woff'),
+  url('../../fonts/franklin/franklin-normal-700.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'franklin-normal-800';
+  src: local('☺︎'),
+  url('../../fonts/franklin/franklin-normal-800.woff') format('woff'),
+  url('../../fonts/franklin/franklin-normal-800.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: 'franklin-normal-900';
+  src: local('☺︎'),
+  url('../../fonts/franklin/franklin-normal-900.woff') format('woff'),
+  url('../../fonts/franklin/franklin-normal-900.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 900;
+}

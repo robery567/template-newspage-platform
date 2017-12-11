@@ -1,0 +1,40 @@
+/* columns styles */
+
+.block_columns {
+  margin-left: -20px;
+  overflow: hidden;
+  > div {
+    min-height: 1px;
+    float: left;
+  }
+  .column_inner {
+    margin-left: 20px;
+  }
+  .full {
+    width: 100%;
+  }
+  .one_half {
+    width: 50%;
+  }
+  .one_third {
+    width: 33.333%;
+  }
+  .two_third {
+    width: 66.666%;
+  }
+  .one_fourth {
+    width: 25%;
+  }
+  .three_fourth {
+    width: 75%;
+  }
+}
+
+.general_not_loaded {
+  min-height: 100px;
+  overflow: hidden;
+  background: url('../images/loader_1.gif') no-repeat center center;
+  > * {
+    opacity: 0;
+  }
+}

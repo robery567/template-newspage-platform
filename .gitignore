@@ -1,0 +1,14 @@
+# WebStorm
+.idea/*
+
+# NodeJS
+node_modules/*
+
+# Deployed ignore
+public_html/media/*
+
+# Built assets
+public_html/assets/*
+!public_html/assets/.gitkeep
+
+.directory

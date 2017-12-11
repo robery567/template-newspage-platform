@@ -1,0 +1,30 @@
+.masthead {
+  display: block;
+  margin: 0 auto;
+  position: relative;
+
+  &__logo {
+    text-align: center;
+  }
+
+  &__widget {
+    color: #000;
+
+    ul {
+      text-align: center;
+    }
+
+    li {
+      display: inline-block;
+      list-style-type: none;
+      padding-left: 0;
+      font-size: inherit;
+
+      &:not(:last-child):after {
+        content: '|';
+        padding: 2px;
+        color: lightgrey;
+      }
+    }
+  }
+}

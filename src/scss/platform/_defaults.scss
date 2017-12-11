@@ -1,0 +1,54 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  color: #666666;
+}
+
+a {
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  color: #666666;
+}
+
+.wrapper {
+  min-height: 100%;
+  position: relative;
+  background-color: #ffffff;
+}
+
+.inner {
+  width: 940px;
+  margin: 0 auto;
+}
+
+.fl, .alignleft {
+  float: left;
+}
+
+.fr, .alignright {
+  float: right;
+}
+
+.tac {
+  text-align: center;
+}
+
+.clearboth {
+  width: 100%;
+  height: 0;
+  line-height: 0;
+  display: block;
+  clear: both;
+  overflow: hidden;
+  font-size: 0;
+}
+
+.oh {
+  overflow: hidden;
+}

@@ -1,0 +1,19 @@
+#!/bin/bash
+
+echo "Fetching changes..."
+git fetch
+if [[ $? -ne 0 ]]; then
+    echo "Git fetch failed!"
+    exit $?
+fi
+echo "Git fetch executed!"
+###
+echo "Applying changes..."
+git reset --hard origin/master
+if [[ $? -ne 0 ]]; then
+    echo "Git reset failed!"
+    exit $?
+fi
+echo "Git reset executed!"
+###
+exit 0

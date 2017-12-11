@@ -1,0 +1,204 @@
+/* general buttons */
+
+.general_button {
+  height: 30px;
+  line-height: 30px;
+  padding: 0 14px;
+  display: inline-block;
+  position: relative;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+.general_button_type_1 {
+  height: 32px;
+  line-height: 32px;
+  padding: 0 20px;
+  display: inline-block;
+  border: 3px solid #ffffff;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  &:hover {
+    border-color: #33cccd;
+    color: #33cccd;
+    text-decoration: none;
+  }
+}
+
+.general_button_type_2 {
+  height: 24px;
+  line-height: 24px;
+  padding: 0 11px;
+  display: inline-block;
+  border: 3px solid #ffffff;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+  font-size: 11px;
+  color: #ffffff;
+  text-align: center;
+  text-transform: uppercase;
+  &:hover {
+    border-color: #33cccd;
+    color: #33cccd;
+    text-decoration: none;
+  }
+}
+
+.general_button_type_3 {
+  height: 34px;
+  line-height: 34px;
+  padding: 0 18px;
+  display: inline-block;
+  background-color: #161e26;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-size: 11px;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  &:hover {
+    background-color: #33cccd;
+    text-decoration: none;
+  }
+}
+
+.general_button_type_4 {
+  height: 34px;
+  line-height: 34px;
+  padding: 0 18px;
+  display: inline-block;
+  background-color: #a3b2bf;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-size: 11px;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  &:hover {
+    background-color: #33cccd;
+    text-decoration: none;
+  }
+}
+
+.general_button_type_5 {
+  height: 25px;
+  line-height: 25px;
+  padding: 0 12px;
+  display: inline-block;
+  background-color: #a3b2bf;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-size: 10px;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  &:hover {
+    background-color: #161e26;
+    text-decoration: none;
+  }
+}
+
+.general_colored_button {
+  height: 34px;
+  line-height: 34px;
+  padding: 0 20px;
+  display: inline-block;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  font-size: 11px;
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  &:hover {
+    text-decoration: none;
+  }
+  &.default {
+    background-color: #161e26;
+    &:hover {
+      background-color: #33cccd;
+    }
+  }
+  &.blue {
+    background-color: #53b7f9;
+    &:hover {
+      background-color: #161e26;
+    }
+  }
+  &.green {
+    background-color: #35bb2e;
+    &:hover {
+      background-color: #161e26;
+    }
+  }
+  &.orange {
+    background-color: #ff6800;
+    &:hover {
+      background-color: #161e26;
+    }
+  }
+  &.navy {
+    background-color: #1c7bbf;
+    &:hover {
+      background-color: #161e26;
+    }
+  }
+  &.red {
+    background-color: #e35039;
+    &:hover {
+      background-color: #161e26;
+    }
+  }
+  &.pink {
+    background-color: #e52b50;
+    &:hover {
+      background-color: #161e26;
+    }
+  }
+  &.purple {
+    background-color: #d66fa5;
+    &:hover {
+      background-color: #161e26;
+    }
+  }
+  &.yellow {
+    background-color: #ffbe34;
+    &:hover {
+      background-color: #161e26;
+    }
+  }
+  &.brown {
+    background-color: #6f4e37;
+    &:hover {
+      background-color: #161e26;
+    }
+  }
+}
