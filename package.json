@@ -2,7 +2,7 @@
   "dependencies": {
     "bloodhound-js": "^1.2",
     "blueimp-gallery": "^2.25",
-    "bootstrap-sass": "^3.3",
+    "bootstrap-sass": "^3.4",
     "bootstrap-tagsinput": "^0.7",
     "bootswatch": "^3.3",
     "datatables.net": "^1.10",
