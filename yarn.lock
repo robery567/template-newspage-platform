@@ -5039,9 +5039,9 @@ timers-browserify@^2.0.4:
   dependencies:
     setimmediate "^1.0.4"
 
-tinymce@^4.6:
-  version "4.7.4"
-  resolved "https://registry.yarnpkg.com/tinymce/-/tinymce-4.7.4.tgz#1d7ebb192aa1c238cb9fc8350376c2ea2efb8891"
+tinymce@^4.9:
+  version "4.9.7"
+  resolved "https://registry.yarnpkg.com/tinymce/-/tinymce-4.9.7.tgz#74ce54f07cfc0268a5ac5e34f610044658c92f47"
 
 to-arraybuffer@^1.0.0:
   version "1.0.1"
