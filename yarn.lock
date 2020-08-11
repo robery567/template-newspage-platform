@@ -5040,8 +5040,8 @@ timers-browserify@^2.0.4:
     setimmediate "^1.0.4"
 
 tinymce@^4.9:
-  version "4.9.10"
-  resolved "https://registry.yarnpkg.com/tinymce/-/tinymce-4.9.10.tgz#47bd7b4d27d80d53a464356eb7c72b97e5c3aadd"
+  version "4.9.11"
+  resolved "https://registry.yarnpkg.com/tinymce/-/tinymce-4.9.11.tgz#e3dae099722294c5b8d84ba7ef18dd126de6b582"
 
 to-arraybuffer@^1.0.0:
   version "1.0.1"
